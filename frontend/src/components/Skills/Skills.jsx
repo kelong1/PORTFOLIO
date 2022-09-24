@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Skills = () => {
   return (
-    <div>skills</div>
+   <section id='skills' className='skills'>
+    <h1>Skills</h1>
+   </section>
   )
 }

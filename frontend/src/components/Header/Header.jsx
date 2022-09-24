@@ -2,26 +2,26 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <div>
-        <div>
+    <header className='header'>
+        <div className='logo'>
             myportfolio
         </div>
-        <div>
+        <div className='nav'>
             <ul>
                 <li>
-                    Home
+                    <a href="#Home">Home</a>
                 </li>
                 <li>
-                    skills
+                   <a href='#skills'>Skills</a>
                 </li>
                 <li>
-                    projects
+                   <a href='#project'>Projects</a>
                 </li>
                 <li>
-                    contact me
+                  <a href='#contact'>Contact me</a>
                 </li>
             </ul>
         </div>
-    </div>
+    </header>
   )
 }

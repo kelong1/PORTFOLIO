@@ -2,6 +2,9 @@ import React from 'react'
 
 export const Project = () => {
   return (
-    <div>Project</div>
+    <section className='project' id="project">
+        <h1>Projects</h1>
+
+    </section>
   )
 }
