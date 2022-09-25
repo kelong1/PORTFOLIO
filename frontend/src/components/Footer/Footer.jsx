@@ -7,7 +7,7 @@ const Footer = () => {
         <div className='container'>
             <form className='form-group'>
                 <input type="text" className='form-control' />
-                <button className='btn btn-primary'> submit</button>
+                <button className='btn btn-dark'> submit</button>
             </form>
             
 
