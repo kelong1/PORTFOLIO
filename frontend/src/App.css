@@ -8,8 +8,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:rgb(43,36,36);
-    color:white
+  
+    color:black;
 
  
 }
@@ -33,7 +33,7 @@
 }
 .header .nav ul li a{
     
-    color: white;
+    color:black;
 }
 section{
     height: 100vh;
@@ -75,8 +75,8 @@ h1{
     justify-content: space-around;
 }
 .skills_tabs div,.project_tabs div{
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
     box-shadow: 2px 2px 2px 2px grey;
     border-radius: 5px;
 }
@@ -86,24 +86,24 @@ h1{
 }
 .a{
     background-image: url(../public/images/React_logo.png);
-    object-fit: fill;
+    object-fit: cover;
     background-size: cover;
 }
 .b{
     background-image: url(../public/images/redux.jpg);
     background-repeat: none;
     background-size: cover;
-    object-fit: fill;
+    object-fit: cover;
 }
 .c{
     background-image: url(../public/images/nodexpress.jpg);
     background-repeat: none;
     background-size: cover;
-    object-fit: fill;
+    object-fit:cover;
 }
 .d{
     background-image: url(../public/images/mongo.jpg);
     background-repeat: none;
     background-size: cover;
-    object-fit: fill;
+    object-fit: cover;
 }

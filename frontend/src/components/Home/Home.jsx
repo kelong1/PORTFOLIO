@@ -6,8 +6,8 @@ export const Home = () => {
       <div className='frame'></div>
      
         <div className='profile'>
-           <p> Kelong Zacharia </p>
-            <p>Software Developer</p>
+           <h1> Kelong Zacharia </h1>
+            <h4>Software Developer</h4>
         </div>
     </section>
   )

@@ -7,7 +7,7 @@ export const Project = () => {
         <div className='project_tabs'>
           <div>Blog website</div>
           <div>Ecommerce website</div>
-          <div>social media </div>
+          
         </div>
 
     </section>
