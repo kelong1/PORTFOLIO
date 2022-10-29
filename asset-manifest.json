@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PORTFOLIO/static/css/main.32863411.css",
+    "main.js": "/PORTFOLIO/static/js/main.87bdd393.js",
+    "static/media/React_logo.png": "/PORTFOLIO/static/media/React_logo.3c1cca491037897328d6.png",
+    "static/media/mongo.jpg": "/PORTFOLIO/static/media/mongo.de1ac809b3ee4604b403.jpg",
+    "index.html": "/PORTFOLIO/index.html",
+    "main.32863411.css.map": "/PORTFOLIO/static/css/main.32863411.css.map",
+    "main.87bdd393.js.map": "/PORTFOLIO/static/js/main.87bdd393.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32863411.css",
+    "static/js/main.87bdd393.js"
+  ]
+}
