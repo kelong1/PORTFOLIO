@@ -1,15 +1,17 @@
 *{
     margin:0;
     padding: 0;
+    
 }
 .header{
+    position: fixed;
     height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-  
-    color:black;
+    background-color: #061c47;
+    color:white;
 
  
 }
@@ -33,54 +35,115 @@
 }
 .header .nav ul li a{
     
-    color:black;
+    color:white;
+}
+.header .nav ul li a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+    letter-spacing: 0.5px;
 }
 section{
+    padding-top:90px;
     height: 100vh;
     width: 100%;
    
 
 }
+.skills{
+    padding-left: 10%;
+    background-color: #7CB9E8;
+}
 .home{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #061c47;
+    color: white;
+}
+.home p{
+    color: grey;
 }
 
 .profile{
-    position: absolute;
-    top:25vh ;
-    right:25vh;
-    font-size: 50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-   
+    width: 500px;
+    text-align: center;
 
 
 }
+.About_tabs{
+    height: 70vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+}
+.image_section{
+    width: 500px;
+    height: 60vh;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px #061c47;
+    padding-top: 10%;
+}
+.About_me{
+    padding-top: 10%;
+}
+.tabs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.tabs div{
+    height: 100px;
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 5%;
+    margin: 10px;
+}
+
 .frame{
     position: absolute;
     top: 25vh;
     left: 25vh;
     height: 400px;
     width: 400px;
-    box-shadow: 2px 2px 2px 2px grey;
+    box-shadow: 2px 2px 2px 2px crimson;
     border-radius: 3px;
 }
 
 h1{
     text-align: center;
 }
-.skills_tabs,.project_tabs{
+.skills_tabs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.skills_tabs div{
+    height: 70vh;
+    width: 500px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px #061c47;
+}
+.front,.back{
+   padding-left: 10%;
+}
+.front ul,.back ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.project_tabs{
     height: 90%;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-.skills_tabs div,.project_tabs div{
-    height: 500px;
-    width: 500px;
+
+.project_tabs div{
+    height: 300px;
+    width: 300px;
     box-shadow: 2px 2px 2px 2px grey;
     border-radius: 5px;
 }
-.skills_tabs div:hover,.project_tabs div:hover{
+.project_tabs div:hover{
         transform: scale(1.1);
         transition:0.5s;
 }
@@ -106,4 +169,91 @@ h1{
     background-repeat: none;
     background-size: cover;
     object-fit: cover;
+}
+.themes{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.themes div{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+
+}
+.contact_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact_social{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+.contact_social div{
+    height: 120px;
+    width: 200px;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px 1px grey;
+    margin-top: 20px;
+    background-color: #7CB9E8;
+}
+.footer_last{
+    text-align: center;
+    background-color: #061c47;
+    color: #7CB9E8;
+}
+.footer_last ul{
+    height: 20px;
+    width: 100%;
+    
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer_last ul li{
+    margin-left: 30px;
+}
+@media screen and (max-width:500px) {
+   .header{
+    display: flex;
+    flex-direction: column;
+   }
+   .logo{
+    display:none;
+   }
+   .nav{
+    width: 100%;
+   
+   }
+   .nav ul{
+    display: flex;
+    flex-direction: column;
+   }
+   .nav ul li{
+    height: 1;
+    width: 100%;
+    text-align: center;
+   }
+   section{
+   
+    width: 100%;
+   }
+   .skills_tabs div,.project_tab div{
+    
+   }
+   .skills_tabs,.project_tabs{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+}
 }

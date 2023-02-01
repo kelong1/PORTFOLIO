@@ -4,12 +4,16 @@ export const Header = () => {
   return (
     <header className='header'>
         <div className='logo'>
-            myportfolio
+           <p>myporfolio</p>
+           <i></i>
         </div>
         <div className='nav'>
             <ul>
                 <li>
-                    <a href="#Home">Home</a>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                   <a href='#About'>About me</a>
                 </li>
                 <li>
                    <a href='#skills'>Skills</a>
